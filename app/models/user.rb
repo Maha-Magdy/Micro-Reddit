@@ -4,5 +4,5 @@ class User < ApplicationRecord
     message: "need to enter a valid email"}
 
   has_many :posts
-  has_many :comments, through: :posts
+  has_many :comments
 end
