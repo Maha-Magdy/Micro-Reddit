@@ -5,17 +5,27 @@ This application is made for creating simple app like Reddit that allow users to
 ## Built With
 
 - Ruby on Rails
-- Ruby (version => 2.7.2)
+- Ruby ( version => 2.7.2 )
 
-To get a local copy up and running follow these simple example steps.
+## Installation
 
-### To clone this repo run this code on a terminal window: 
+### To get a local copy up and running follow these simple example steps.
 
-git clone git@github.com:Maha-Magdy/micro-reddit.git
+1. To clone this repo run this code on a terminal window: 
 
-### After you clone the application you can run this code in your terminal to start to add users, posts and comments
+   git clone git@github.com:Maha-Magdy/micro-reddit.git
 
-Rails console
+2. install gems by this command
+
+   bundle install
+
+3. migrate the database by this command
+
+   rails db:migrate
+
+4. Open rails console in the terminal to start to add users, posts and comments by this command
+
+   Rails console
 
 ## Authors
 
